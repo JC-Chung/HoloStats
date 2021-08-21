@@ -54,6 +54,11 @@ export type VTuberIds =
   | "inanis"
   | "kiara"
   | "irys"
+  | "sana"
+  | "fauna"
+  | "kronii"
+  | "mumei"
+  | "baelz"
   | "luna"
   | "nekomiya"
   | "tamaki"
@@ -392,6 +397,42 @@ export const vtubers: Record<VTuberIds, VTuber> = {
     youtube: "UC8rcEBzJSleTkf_-agPM20g",
     default: true,
   },
+  irys: {
+    id: "irys",
+    twitter: "irys_en",
+    youtube: "UC8rcEBzJSleTkf_-agPM20g",
+    default: true,
+  },
+  sana: {
+    id: "sana",
+    twitter: "tsukumosana",
+    youtube: "UCsUj0dszADCGbF3gNrQEuSQ",
+    default: true,
+  },
+  fauna: {
+    id: "fauna",
+    twitter: "ceresfauna",
+    youtube: "UCO_aKKYxn4tvrqPjcTzZ6EQ",
+    default: true,
+  },
+  kronii: {
+    id: "kronii",
+    twitter: "ourokronii",
+    youtube: "UCmbs8T6MWqUHP1tIQvSgKrg",
+    default: true,
+  },
+  mumei: {
+    id: "mumei",
+    twitter: "nanashimumei_en",
+    youtube: "UC3n5uGu18FoCy23ggWWp8tA",
+    default: true,
+  },
+  baelz: {
+    id: "baelz",
+    twitter: "hakosbaelz",
+    youtube: "UCgmPnx-EEeOrZSg5Tiw7ZRQ",
+    default: true,
+  },
   luna: {
     id: "luna",
     twitter: "_KaguyaLuna",
@@ -507,6 +548,7 @@ export type BatchIds =
   | "hololive_id_2nd"
   | "hololive_en"
   | "hololive_en_vsinger"
+  | "hololive_en_council"
   | "holostars_1st"
   | "holostars_2nd"
   | "holostars_3rd"
@@ -529,6 +571,7 @@ export const batches: Record<BatchIds, Batch> = {
   hololive_id_2nd: ["ollie", "melfissa", "reine"],
   hololive_en: ["amelia", "calliope", "gura", "inanis", "kiara"],
   hololive_en_vsinger: ["irys"],
+  hololive_en_council: ["sana", "fauna", "kronii", "mumei", "baelz"],
   holostars_1st: ["miyabi", "izuru", "aruran", "rikka"],
   holostars_2nd: ["astel", "temma", "roberu"],
   holostars_3rd: ["shien", "oga"],
