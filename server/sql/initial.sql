@@ -45,6 +45,11 @@ insert into youtube_channels (vtuber_id)
             ('inanis'),          -- Ninomae Ina'nis
             ('kiara'),           -- Takanashi Kiara
             ('irys'),            -- IRyS
+            ('sana'),            -- Tsukumo Sana
+            ('fauna'),           -- Ceres Fauna
+            ('kronii'),          -- Ouro Kronii
+            ('mumei'),           -- Nanashi Mumei
+            ('baelz'),           -- Hakos Baelz
             ('luna'),            -- 輝夜月
             ('nekomiya'),        -- 猫宮ひなた
             ('tamaki'),          -- 犬山たまき
